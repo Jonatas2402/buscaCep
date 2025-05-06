@@ -7,7 +7,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-
+//Classe responsavel por fazer a requisição http.
 public class BuscaEndereco {
     public Endereco buscaEndereco(String cep) {
         Gson gson = new Gson();
